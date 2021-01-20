@@ -20,7 +20,6 @@ if __name__ == '__main__':
         except queue.Empty:
             return None
 
-    # Aristas VM
     host = ('192.168.56.31',50051)
 
     sample_interval = 5
